@@ -142,7 +142,7 @@ The input for the function is
 - the name of the dataset: `DFname`,
 - the name of the truth table object: `TTname`,
 - the type of row you want: `1` for consistent rows; `0` for inconsistent
-rows; `"all"` (or any character string) for both combined.
+rows.
 
 Here is how it works with the hypothetical data and truth table.  
 Contradictory cases in consistent rows.
@@ -174,7 +174,7 @@ tt_contra(df, dftt, rowtype = 0)
 ## S 0.43 0.24 0.60 0.17 inconsistent row
 ```
 
-[R script](./QCAcontra.R) for this analysis.
+[R script](./QCAcontra.R) and [Markdown file](./QCAcontra.md) for this analysis.
 
 **Parameters of analysis**
 
@@ -216,11 +216,12 @@ devtools::session_info()
 ##  highr         0.8     2019-03-20 [1] CRAN (R 3.5.3)
 ##  htmltools     0.4.0   2019-10-04 [1] CRAN (R 3.5.3)
 ##  httpuv        1.5.2   2019-09-11 [1] CRAN (R 3.5.3)
-##  knitr       * 1.26    2019-11-12 [1] CRAN (R 3.5.3)
+##  knitr         1.26    2019-11-12 [1] CRAN (R 3.5.3)
 ##  later         1.0.0   2019-10-04 [1] CRAN (R 3.5.3)
 ##  magrittr      1.5     2014-11-22 [1] CRAN (R 3.5.1)
 ##  memoise       1.1.0   2017-04-21 [1] CRAN (R 3.5.1)
 ##  mime          0.7     2019-06-11 [1] CRAN (R 3.5.3)
+##  packrat       0.5.0   2018-11-14 [1] CRAN (R 3.5.3)
 ##  pkgbuild      1.0.6   2019-10-09 [1] CRAN (R 3.5.3)
 ##  pkgload       1.0.2   2018-10-29 [1] CRAN (R 3.5.1)
 ##  prettyunits   1.0.2   2015-07-13 [1] CRAN (R 3.5.1)
@@ -233,6 +234,7 @@ devtools::session_info()
 ##  remotes       2.1.0   2019-06-24 [1] CRAN (R 3.5.3)
 ##  rlang         0.4.1   2019-10-24 [1] CRAN (R 3.5.3)
 ##  rprojroot     1.3-2   2018-01-03 [1] CRAN (R 3.5.1)
+##  rstudioapi    0.10    2019-03-19 [1] CRAN (R 3.5.3)
 ##  sessioninfo   1.1.1   2018-11-05 [1] CRAN (R 3.5.1)
 ##  shiny         1.4.0   2019-10-10 [1] CRAN (R 3.5.3)
 ##  stringi       1.4.3   2019-03-12 [1] CRAN (R 3.5.3)

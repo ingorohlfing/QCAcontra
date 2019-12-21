@@ -91,7 +91,7 @@ tt_contra <- function(DFname, TTname, rowtype){
 #' - the name of the dataset: `DFname`,
 #' - the name of the truth table object: `TTname`,
 #' - the type of row you want: `1` for consistent rows; `0` for inconsistent
-#' rows; `"all"` (or any character string) for both combined.
+#' rows.
 #' 
 #' Here is how it works with the hypothetical data and truth table.  
 #' Contradictory cases in consistent rows.

@@ -174,7 +174,7 @@ tt_contra(df, dftt, rowtype = 0)
 ## S 0.43 0.24 0.60 0.17 inconsistent row
 ```
 
-[R script](./QCAcontra.R) and [Markdown file](./QCAcontra.md) for this analysis.
+[R script](./QCAcontra.R) and [Markdown report](./QCAcontra.html) for this analysis.
 
 **Parameters of analysis**
 
